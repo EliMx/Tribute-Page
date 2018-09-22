@@ -1,0 +1,33 @@
+<style>
+
+  #title{
+      margin:100px
+      color:black;
+      text-align: center;
+      font-size:70px
+   
+  }
+  .green-background {
+    background-color: green;
+    padding:5px;
+}
+ 
+  #image{ 
+        display: block;
+        margin:auto;
+        max-width: 100%;
+        height:auto;
+        border-color: green;
+        border-width: 20px;
+        border-style: solid;
+        border-radius:100px;
+  
+     }
+  
+    a{color:green;}
+  h1,p, ul, lable, button, li,form {
+        text-align: center;
+        font-size:30px;
+        font-family: Lobster, Poor Story ;    
+  }
+</style>
