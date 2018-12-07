@@ -1,91 +1,48 @@
-<style>
 
-  #title{
-      margin:100px
-      color:black;
-      text-align: center;
-      font-size:70px
-   
-  }
-  .green-background {
-    background-color: green;
-    padding:5px;
-}
- 
-  #image{ 
-        display: block;
-        margin:auto;
-        max-width: 100%;
-        height:auto;
-        border-color: green;
-        border-width: 20px;
-        border-style: solid;
-        border-radius:100px;
-  
-     }
-  
-    a{color:green;}
-  h1,p, ul, lable, button, li,form {
-        text-align: center;
-        font-size:30px;
-        font-family: Lobster, Poor Story ;    
-  }
-</style>
-
-<main id="main">
-
+<link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
- 
-<head>
-
-  <h1 id="title" class="green-background">Jim Henson</h1> 
-
-
-
-</head>
-<body>
- <div id="img-div">
-   
- <img id="image"src="https://pm1.narvii.com/6829/9b600b16e027024858e7cca20fa49ecce167fb49v2_hq.jpg" alt="Jim Henson and Kermit The Frog" > </img>
-  
- <p  id="img-caption" class="green-background">Jim Henson and Kermit The Frog</p>
-  
- </div>
-  
- <p id="tribute-info">
-        James Maury "Jim" Henson (Greenville, Misisipi, 24 de septiembre de 1936 - Nueva York, 16 de mayo de 1990) fue un titiritero y productor televisivo estadounidense, conocido por ser el creador de The Muppets. Henson participó en varios programas de televisión, incluyendo:</p>
-  <ul class="green-background">
+<div class="wrapper">
+        <header class="main-head"> </header>
+        <nav  class="main-nav">
+            <ul>
+                <a href="#bibliografia">Biografia</a>
+                <a href="#linea-tiempo">El Show de los Muppets</a>
+                <a href="#tribute-link">Referencias</a>
+            </ul>
+        </nav>
+        <article id = "main" class="content">
+            <h1 id="title">Jim Henson</h1>
+          <div id="img-div"><img id="image"src="https://pm1.narvii.com/6829/9b600b16e027024858e7cca20fa49ecce167fb49v2_hq.jpg" alt="Jim Henson and Kermit The Frog"><p  id="img-caption">Jim Henson y La Rana René</p></img></div>
+  <h2 id="bibliografia">Biografia
+</h2>
+            <p  id="tribute-info"> James Maury "Jim" Henson (Greenville, Misisipi, 24 de septiembre de 1936 - Nueva York, 16 de mayo de 1990) fue un titiritero y productor televisivo estadounidense, conocido por ser el creador de The Muppets. Henson participó en varios programas de televisión, incluyendo:</p>
+  <ul class="peliculas">
     <li>  Sesame Street </li>
     <li>  The Muppet Show </li>
     <li>  The Muppet Movie </li>
     <li>  The Great Muppet Caper </li>
     <li>  The Dark Crystal </li>
     <li>  Labyrinth </li>
-  </ul> 
-    <p>Estuvo nominado a un premio Óscar y ganó los premios BAFTA y Emmy. Para desarrollar sus proyectos, Henson fundó diferentes compañías, como The Jim Henson Company, The Jim Henson Foundation y The Jim Henson's Creature Shop.
-  </p>
+  </ul>
+  <p>Estuvo nominado a un premio Óscar y ganó los premios BAFTA y Emmy. Para desarrollar sus proyectos, Henson fundó diferentes compañías, como The Jim Henson Company, The Jim Henson Foundation y The Jim Henson's Creature Shop.
+  </p><h2>El Show de los Muppets</h2><p id="linea-tiempo">Es un programa de televisión británico producido por el titiritero estadounidense Jim Henson en el cual actúa un elenco de Muppets. Después de dos episodios pilotos, en 1974 y 1975, el show se grabó durante cinco temporadas comenzando en 1976. La serie muestra un vodevil estilo tipo music hall con un espectáculo de variedades de canto y danza, acompañado por sketches de lo que acontece detrás del escenario. Gustavo (llamado en Hispanoamérica la rana René) es el conductor y presentador que intenta mantener el control de las locuras de los otros personajes (y su temperamento) así como tener contentas a las estrellas invitadas. El programa se hizo famoso por sus bufonadas físicas escandalosas, a veces con elementos de comedia absurda y parodias humorísticas.1​ Cada episodio contaba con la presencia de una estrella invitada. A medida que el programa ganó en popularidad, numerosas celebridades aceptaron con gusto actuar en el programa junto con los Muppets y en su película: hacia el final del ciclo, más de una centenar de estrellas invitadas habían aparecido en el programa, muchos de los titiriteros también trabajaban en Plaza Sésamo.</p>
   
- <form id="info" action="#AquiVaLaLigaADondeVaLaInfo">
-   
-     <p id=pregunta>¿Te gusto la informacion?</p>
-   <lable for="si">
-     <input id="si" type="radio" name="quiz">si
-   </lable>
-   <lable for="no">
-     <input id="no" type="radio" name="quiz">no
-     <button id="submit" type="submit">Enviar</button>
-   </lable>
-  </form>
-  
-  
- <p id=link> 
+        </article> 
+<aside class="side">
+  <div class="sidebarImg">
+  <div id="img-div"><img id="image1"src="https://vignette.wikia.nocookie.net/muppet/images/7/7f/Jim_Henson_surrounded_by_Muppets_Fraggles_Sesame.jpg/revision/latest?cb=20180330141504" alt="Jim Henson y los Muppets"><p id="img-caption" class="green-background">Jim Henson y los Muppets</p></img></div>
+
+<div id="img-div"><img id="image1"src="https://i.pinimg.com/236x/83/1e/8f/831e8fe27d9aa105e67d5ab66c39828d--the-muppets-jim-henson.jpg" alt="Jim Henson y los Muppets"><p id="img-caption" class="green-background">Jim Henson y Enrique</p></img></div>
+
+<div id="img-div"><img id="image1"src="https://c8.alamy.com/comp/P4K09M/original-film-title-the-dark-crystal-english-title-the-dark-crystal-film-director-frank-oz-jim-henson-year-1982-stars-jim-henson-credit-universalassociated-filmitc-album-P4K09M.jpg" alt="Jim Henson en la filmacion de The Dark Crystal"><p id="img-caption" class="green-background">Jim Henson en la filmacion de The Dark Crystal</p></img></div>
+
+<div id="img-div"><img id="image1"src="https://i.pinimg.com/originals/b9/1e/c7/b91ec75bc72a7d2d76109bb17ed902a6.jpg" alt="Jim Henson con Kermet"><p id="img-caption" class="green-background">Jim Henson con Kermet</p></img></div>
+</div>
+</aside>
+        
+<footer class="main-footer" ><p id=link> 
  Referencia:
- <a id="tribute-link" target="_blank" href="https://es.wikipedia.org/wiki/Jim_Henson" > WIKIPEDIA LINK</a>
- </p>
-  
- <script src="scripts/index.js"></script>
- 
-</body>
-</main>
+ <a id="tribute-link" target="_blank" href="https://es.wikipedia.org/wiki/Jim_Henson">WIKIPEDIA LINK</a>
+ </p></a></footer>
+</div>
+
